@@ -1,0 +1,224 @@
+.imageContainer{
+    position: absolute;
+    object-fit: cover;
+}
+
+.myImage{
+    width: 100%;
+    height: 746px;
+    object-fit: cover;
+    top: 0;
+    position: relative;
+    z-index: -1;
+
+}
+
+.weight-600{
+    font-weight: 600;
+}
+
+.mainDiv{
+    width: 90%;
+    height: fit-content;
+    background-color: white;
+    position: absolute;
+    margin-top: -100px;
+
+    box-shadow: 0px 0px 10px 1px rgba(121, 121, 121, 0.46);
+
+    border-radius: 20px;
+
+ 
+
+}
+
+.miniSquare{
+    width: fit-content;
+
+    height: 40px;
+    border: 2px solid #70D6FF;
+
+    border-radius: 5px;
+}
+
+.miniSelectedSquare{
+    width: fit-content;
+    
+    height: 40px;
+    border: 2px solid #35B4E4;
+    background-color: #35B4E4;
+
+    border-radius: 5px;
+}
+
+.blueSpace{
+    height: 110px;
+    width: 290px;
+    background-color: #D6F3FF;
+
+    border-radius: 10px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: #FFE699;
+
+    border: 2px solid white;
+
+    margin: -25px;
+    margin-top: 35px;
+
+    z-index: 32;
+
+
+    border-radius: 50%;
+}
+
+#myCheckbox {
+    border-color: blue;
+}
+
+.searchBar{
+ 
+    width: 200px;
+    height: 50px;
+    background-color: #70d6ff85;
+    border-radius: 100px;
+
+    margin-left: 25%;
+    margin-top: -10px;
+
+    border: 2px solid #70D6FF;
+}
+
+.searchCircle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #70D6FF;
+
+    margin-top: -2px;
+    margin-right: -2px;
+
+    box-shadow: 0px 0px 10px 1px #70D6FF;
+}
+
+.horizontalLineDiv{
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: -80px;
+}
+
+
+.horizontalLine{
+    width: 200px;
+    height: 2px;
+    background-color: #70D6FF;
+    margin-bottom: 60px;
+}
+
+.cardContent{
+    width: 240px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 1px #70D6FF;
+    margin: 60px;
+
+    border-radius: 20px;
+}
+
+.myCircle{
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    margin-top: -32.5px;
+    
+    position: relative;
+
+    border-radius: 50%;
+    padding: 2px;
+    padding-right: 2.5px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mySearchCircle{
+    width: 45px;
+    height: 45px;
+    background-color: #70D6FF;
+    margin-top: 14px;
+    
+    position: relative;
+
+    border-radius: 50%;
+    padding: 2px;
+    padding-right: 2.5px;
+
+    display: flex;
+    justify-content: space-around;
+
+    box-shadow: 0px 0px 5px 1px #70D6FF;
+}
+
+.countiresSection{
+    margin-top: 400px;
+}
+
+.divSection{
+    height: 50px;
+    width: 400px;
+
+    background-color: rgb(255, 255, 255);
+
+
+
+    box-shadow: 0px 0px 2px 1px rgba(128, 128, 128, 0.348);
+
+    border-radius: 20px;
+}
+
+.boxSection{
+
+    width: 420px;
+    height: 284px;
+    box-shadow: 0px 0px 2px 1px #70d6ff;
+
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .countiresSection{
+        margin-top: 600px;
+    }
+}
+
+@media (max-width: 990px) {
+    .countiresSection{
+        margin-top: 700px;
+    }
+}
+
+@media (max-width: 770px) {
+    .countiresSection{
+        margin-top: 900px;
+    }
+}
+
+@media (max-width: 724px) {
+    .countiresSection{
+        margin-top: 1000px;
+    }
+}
+
+
+@media (max-width: 570px) {
+    .countiresSection{
+        margin-top: 1300px;
+    }
+}
